@@ -4,11 +4,11 @@ Set up a sandboxed development environment for a foundry-vtt system, module or w
 
 ## Install docker
 
-Go to `https://docs.docker.com/engine/install/` and follow the instructions to install docker for your OS
+Go to https://docs.docker.com/engine/install/ and follow the instructions to install docker for your OS
 
 ## Install docker-compose
 
-Go to `https://docs.docker.com/compose/install/` and follow the instructions to install docker-compose for your OS
+Go to https://docs.docker.com/compose/install/ and follow the instructions to install docker-compose for your OS
 ## Clone this repository and cd into it
 ```BASH
 # by ssh
