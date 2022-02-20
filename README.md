@@ -36,6 +36,8 @@ Add a `secrets.json` file to the root of this project containing :
 
 Replace `foundry_username` and `foundry_password` with your foundry-vtt credentials. This will allow the container to fetch your license key and download foundry.
 
+Please follow instructions here if you'd rather use a license key: https://github.com/felddy/foundryvtt-docker
+
 2. **Create your system / module / world development folder**
 
 > You must do this step before launching the container for the first time
