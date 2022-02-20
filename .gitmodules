@@ -1,0 +1,3 @@
+[submodule "data/Data/systems/sr5"]
+	path = data/Data/systems/sr5
+	url = git@github.com:shadowfoundry/sr5.git

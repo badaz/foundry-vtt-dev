@@ -1,0 +1,21 @@
+version: "3.8"
+
+secrets:
+  config_json:
+    file: secrets.json
+
+services:
+  foundry:
+    image: felddy/foundryvtt:release
+    hostname: localhost
+    init: true
+    restart: "unless-stopped"
+    volumes:
+      - ./data:/data
+    # environment:
+    #   - FOUNDRY_VERSION=9.249
+    ports:
+      - 30000:30000
+    secrets:
+      - source: config_json
+        target: config.json
