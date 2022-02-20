@@ -1,5 +1,8 @@
 Set up a sandboxed development environment for a foundry-vtt system, module or world in minutes!
 
+# Requirements
+- a foundryvtt user account containing a foundryvtt software licence
+
 # Installation
 
 ## Install docker
