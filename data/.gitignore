@@ -1,3 +1,4 @@
-Config
-Data
-Logs
+*
+!*/Data/systems/.gitignore
+!*/Data/worlds/.gitignore
+!*/Data/modules/.gitignore
