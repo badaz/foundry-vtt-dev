@@ -1,4 +1,4 @@
-Set up a sandboxed development environment for a foundry-vtt system, module or world in minutes!
+Set up a sandboxed development environment for a foundryvtt system, module or world in minutes!
 
 # Requirements
 - a foundryvtt user account containing a foundryvtt software licence
@@ -15,9 +15,9 @@ Go to https://docs.docker.com/compose/install/ and follow the instructions to in
 ## Clone this repository and cd into it
 ```BASH
 # by ssh
-git clone git@github.com:badaz/foundry-vtt-dev.git && cd foundry-vtt-dev.git
+git clone git@github.com:badaz/foundryvtt-dev.git && cd foundryvtt-dev.git
 # or http
-git clone https://github.com/badaz/foundry-vtt-dev.git && cd foundry-vtt-dev.git
+git clone https://github.com/badaz/foundryvtt-dev.git && cd foundryvtt-dev.git
 ```
 
 # Configuration
@@ -29,12 +29,12 @@ Add a `secrets.json` file to the root of this project containing :
 ```JSON
 {
   "foundry_admin_key": "admin",
-  "foundry_username": "<your-foundry-vtt-username>",
-  "foundry_password": "<your-foundry-vtt-password>"
+  "foundry_username": "<your-foundryvtt-username>",
+  "foundry_password": "<your-foundryvtt-password>"
 }
 ```
 
-Replace `foundry_username` and `foundry_password` with your foundry-vtt credentials. This will allow the container to fetch your license key and download foundry.
+Replace `foundry_username` and `foundry_password` with your foundryvtt credentials. This will allow the container to fetch your license key and download foundry.
 
 Please follow instructions here if you'd rather use a license key: https://github.com/felddy/foundryvtt-docker
 
@@ -70,7 +70,7 @@ Run
 docker-compose up -d
 ```
 
-At first launch, please wait a moment for the foundry-vtt image to be pulled by docker, then wait for the container to download foundry and initialize.
+At first launch, please wait a moment for the foundryvtt image to be pulled by docker, then wait for the container to download foundry and initialize.
 
 You can follow what is going on inside the container by entering this command:
 
