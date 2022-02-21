@@ -15,9 +15,9 @@ Go to https://docs.docker.com/compose/install/ and follow the instructions to in
 ## Clone this repository and cd into it
 ```BASH
 # by ssh
-git clone git@github.com:badaz/foundryvtt-dev.git && cd foundryvtt-dev.git
+git clone git@github.com:badaz/foundryvtt-dev.git && cd foundryvtt-dev
 # or http
-git clone https://github.com/badaz/foundryvtt-dev.git && cd foundryvtt-dev.git
+git clone https://github.com/badaz/foundryvtt-dev.git && cd foundryvtt-dev
 ```
 
 # Configuration
