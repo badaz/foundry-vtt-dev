@@ -12,6 +12,7 @@ services:
     restart: "unless-stopped"
     volumes:
       - ./data:/data
+      - ./dev/sr5/dist:/data/Data/systems/sr5
     environment:
       - CONTAINER_PRESERVE_OWNER=/data/Data/systems/.*\|/data/Data/modules/.*\|/data/Data/worlds/.*
     ports:
