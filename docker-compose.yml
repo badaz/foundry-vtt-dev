@@ -11,9 +11,7 @@ services:
     init: true
     restart: "unless-stopped"
     volumes:
-      - ./data/systems:/data/Data/systems
-      - ./data/modules:/data/Data/modules
-      - ./data/worlds:/data/Data/worlds
+      - ./dev/sr5/dist:/data/Data/systems/sr5
     environment:
       - CONTAINER_PRESERVE_OWNER=/data/Data/systems/.*\|/data/Data/modules/.*\|/data/Data/worlds/.*
     ports:
